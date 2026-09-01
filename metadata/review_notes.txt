@@ -1,0 +1,13 @@
+The Info.plist includes NSCameraUsageDescription with the exact string "This app does not use the camera." The app never requests camera access, so that system dialog does not appear. No other permission usage-description keys are set.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow and no App Tracking Transparency prompt.
+
+Restante is a personal payday lock for impulse buyers who are paid on a schedule. Users file wants and wait on the clock until the payday gate opens, or sacrifice another cooling want to buy early. It does not move money or connect to a bank.
+
+No credentials or demo account are needed. On a fresh device install, wait through the launch screen (up to five seconds). Four onboarding pages appear; tap Open the clock or Skip. The empty clock shows File a want. Enter Title and Price, set Necessity, Discretion and Priority, then File the want. Header Settings opens Settings. Bottom Payday opens Payday gate (Lodge payday). Rules opens Regulator (Lodge rules). This week opens Dispatch. To try Remontoire, file a second cooling want whose remaining hours cover the first, tap Sacrifice another want, and choose the donor. When the clock says Payday is open, tap Bought or Dropped.
+
+On launch the app POSTs bundle identifier com.restante.hold and an empty push token to https://restante.pro/api/v1/users/register. A reply without a content URL, or the five-second timeout, shows the native clock. A previously saved content URL would load in WKWebView; a clean install has none. Contact Restante opens https://restante.pro/contact-us in Safari. Filed wants, Regulator rules and Dispatch records stay as JSON files in Application Support on the device.
+
+Behaviour does not differ by App Store region. Currency, weekday names and decimal separators follow the device locale. Payday dates use Calendar and the device time zone.
+
+No licence or regulated-industry paperwork applies. The app does not process payments, hold funds, or give regulated financial advice.

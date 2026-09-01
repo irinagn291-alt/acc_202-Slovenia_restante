@@ -1,0 +1,13 @@
+Restante holds impulse wants until payday. File a want on the wait clock; hours snap to the payday gate instead of a 24-hour timer.
+
+• File a want with Title, Price, Necessity, Discretion and Priority
+• Home wait clock shows remaining hours until payday
+• Cooling until payday; when the gate is open, release as Bought or Dropped
+• Remontoire: Sacrifice another want whose remaining hours cover the gap
+• Payday gate: calendar, Interval days, Lodge payday
+• Rules (Regulator): Payday weekday, Interval days, Monthly impulse limit
+• This week (Dispatch): Bought, Dropped, Sacrificed, Still cooling
+• Settings: Contact Restante, Re-run onboarding, Reset all data
+• Wants live on this device as local files
+
+Skip still lodges Friday every two weeks. There is no checkout and no bank login.

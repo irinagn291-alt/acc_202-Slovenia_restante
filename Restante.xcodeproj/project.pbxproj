@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0399F53AEBE41069C449D5C0 /* Fusee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECED2E1DBE9D7FDF19ECBCC /* Fusee.swift */; };
+		0555C2EEA9151557867D1594 /* RestanteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC37D1668EF05BAA7C0DAF1 /* RestanteTests.swift */; };
+		07D6F2A735B709A402F93C5D /* Horology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9F05B6CB501C4B810A80E /* Horology.swift */; };
+		0B2C3E66EBAF0C700CD8FF59 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C99DE9335707C8B41D887 /* APIConfig.swift */; };
+		115F388ED159D026AD181411 /* PendulumControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097E08B2B3CC307DAB2A8125 /* PendulumControlTests.swift */; };
+		11D7CAB7FF662CAFC5FE972B /* ScreenCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD19E0E55366A7C169F06F /* ScreenCatalog.swift */; };
+		1542519A0A4799F8E76A705B /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8A3C9BB96BA6C26A57A50 /* SettingsScreen.swift */; };
+		1D8B3668449AB6C44FCEEC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C749063E361856220194DBA /* Assets.xcassets */; };
+		2C47003958850C1680BF6390 /* ScreenShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B9553F7541CA29D390AF01 /* ScreenShotTests.swift */; };
+		3061D0F06B525C856EDCB91A /* Remontoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46131137593FB72A4D49AEC6 /* Remontoire.swift */; };
+		383C280D5543DB12921B1C3D /* FilingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4FE7B6B94BA4C224C7A2A7 /* FilingTests.swift */; };
+		3A72B94611B6617CA07DBFA8 /* CalendarFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F521D68A2E8BCF090A0F94 /* CalendarFixture.swift */; };
+		3CA5B3DD8CE234B8129DE3BE /* Mainspring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C053E558BB8EAA48D020E667 /* Mainspring.swift */; };
+		40805C4C04C5056E5D62B434 /* PendulumFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62838E38DD7120F08BC6C571 /* PendulumFace.swift */; };
+		4AF6E3C3E827CB9289CAE255 /* FrankingClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2320EDC26D24D5DCB684A075 /* FrankingClientTests.swift */; };
+		5324204C6CBADD845F74B98D /* OnboardingFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3928B832941B3032CDA82 /* OnboardingFace.swift */; };
+		5B302A5E5A58AF60A566267F /* DispatchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6E298F055D8F63BD55B0A /* DispatchControl.swift */; };
+		5E9C5F6DDB70305C1D5CAEE1 /* PostageInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE210BC4415138A28D5401F /* PostageInk.swift */; };
+		5ECB44C26C9E5E4E771F216C /* Escapement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5096E4BE1F6F0EDEE1B5C9AA /* Escapement.swift */; };
+		6E2C2CEAE4D2994CCEC62D9E /* GoingTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010833F316223DBBA819BEC /* GoingTrainTests.swift */; };
+		707BE46317F2DDFF9482E829 /* FuseeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5C83833086EC2EC404C36D /* FuseeTests.swift */; };
+		7949D0BEAB7162D8868402A5 /* CancellationMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82296F889BAE26834C2D9CC6 /* CancellationMarks.swift */; };
+		7ED4B729593D990F09E6845E /* FilingFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108BB48ADC47FB8ECE8A265 /* FilingFace.swift */; };
+		83DB4C713A030E40C34ECF2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6456EFB2018C620E9DED7 /* ContentView.swift */; };
+		914E4541419547FB0E8B1AC0 /* RemontoireFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00171CCD385143A1B2BB76EC /* RemontoireFace.swift */; };
+		9374A3E1C66D688239F891FD /* RegulatorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CACA26B7D647B56FB9403 /* RegulatorControl.swift */; };
+		9C4D1BF5268B582982A57B05 /* PostagePlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5F18CF12D0151FD1C4240 /* PostagePlate.swift */; };
+		9E96B7B70BF324C47D74986D /* ReleasingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB7DCDCFFF82183B92E9ED /* ReleasingControl.swift */; };
+		A3075FDA7EC69D603705C152 /* Waybill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF6D6F442433126BC39B083 /* Waybill.swift */; };
+		A319445553C1B549CD999D00 /* Regulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4256A997D04FD37912DF32 /* Regulator.swift */; };
+		A88E7A589412CA7152089F92 /* EscapementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D92A26C3F88C8B6986A78 /* EscapementTests.swift */; };
+		AC516342FBDB204D6B4E4BCE /* ReviewHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861817B9EA881D9274E2E35D /* ReviewHook.swift */; };
+		AD2EA340FC5F09B02F059BFB /* CarriageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433270E79A42F0B391BFB88B /* CarriageError.swift */; };
+		ADF718F832BCDB5998EE38B2 /* RemontoireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F933023CA10B526107C94A0 /* RemontoireTests.swift */; };
+		AE742213AB62656BEEFF4BED /* PostageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81969E0D8851F3C51AF4E98 /* PostageKey.swift */; };
+		B0ADD69BE410339AC1BF1F7B /* RemontoireControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B646BF2BA66D65FBD54AC4F /* RemontoireControl.swift */; };
+		B4DFAEC48F05A84E88BC8EAC /* EscapementControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8457E5F227AF28964F7D028 /* EscapementControl.swift */; };
+		BB201E4185D5E00240DFBB08 /* FilingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A871A8A4350CD7EAFA94E7 /* FilingControl.swift */; };
+		C0591B37BAF080ECC25034E2 /* DispatchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B04AC66714C8168A7E371B /* DispatchScreen.swift */; };
+		C1CDD42BD2977B251887B267 /* ReviewHookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1063D98123B9EA53949DD0F /* ReviewHookTests.swift */; };
+		C410A452CE57010017E17BC6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0EFA94035B66EF5AD4A1DDA1 /* Alamofire */; };
+		C5535AB7F8BCB05FF2EE6F02 /* GoingTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BDD28CD962A1F91AA219F /* GoingTrain.swift */; };
+		D33F380F413B104E754310FA /* RegulatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604EC1BE0BF89E311AABCF53 /* RegulatorScreen.swift */; };
+		E024F6F3EDB9A8E3D536DA5B /* RestanteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1916B102345EA69A4FCE9 /* RestanteApp.swift */; };
+		E61BB7370A5D6C9F0BD1AB82 /* EscapementFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67A4651E04E7E007451CC5E /* EscapementFace.swift */; };
+		EC403592EFB1DACA95C46BD3 /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D250172D4AA70446EC15F66 /* Dispatch.swift */; };
+		F05B83DDFEC5A801B83270FC /* FrankingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF30ECD1E361843C38C2610 /* FrankingClient.swift */; };
+		F2FB8D724D5C178846A7A42D /* Strike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A1CB162674FF8A8DE7B9FA /* Strike.swift */; };
+		F9B6A9ECE63F30A430B4269D /* PendulumControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78AB144227994179F62204C /* PendulumControl.swift */; };
+		FFAAF3A69079AC086FE8F523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2DA801C79C3B55E6E40747 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042902BC8282AC8BC316DC9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A373658746A36BE054181D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56FE8140857DCCAE38613C7;
+			remoteInfo = Restante;
+		};
+		660F3C7E053842FFC66492CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A373658746A36BE054181D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56FE8140857DCCAE38613C7;
+			remoteInfo = Restante;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0010833F316223DBBA819BEC /* GoingTrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingTrainTests.swift; sourceTree = "<group>"; };
+		00171CCD385143A1B2BB76EC /* RemontoireFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemontoireFace.swift; sourceTree = "<group>"; };
+		00D9F05B6CB501C4B810A80E /* Horology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horology.swift; sourceTree = "<group>"; };
+		047CACA26B7D647B56FB9403 /* RegulatorControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulatorControl.swift; sourceTree = "<group>"; };
+		097E08B2B3CC307DAB2A8125 /* PendulumControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumControlTests.swift; sourceTree = "<group>"; };
+		0C749063E361856220194DBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185BDD28CD962A1F91AA219F /* GoingTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoingTrain.swift; sourceTree = "<group>"; };
+		1F933023CA10B526107C94A0 /* RemontoireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemontoireTests.swift; sourceTree = "<group>"; };
+		2320EDC26D24D5DCB684A075 /* FrankingClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrankingClientTests.swift; sourceTree = "<group>"; };
+		29B04AC66714C8168A7E371B /* DispatchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchScreen.swift; sourceTree = "<group>"; };
+		2DF30ECD1E361843C38C2610 /* FrankingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrankingClient.swift; sourceTree = "<group>"; };
+		30E6E298F055D8F63BD55B0A /* DispatchControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchControl.swift; sourceTree = "<group>"; };
+		3AA3928B832941B3032CDA82 /* OnboardingFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFace.swift; sourceTree = "<group>"; };
+		3C9C99DE9335707C8B41D887 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		3D250172D4AA70446EC15F66 /* Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
+		433270E79A42F0B391BFB88B /* CarriageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarriageError.swift; sourceTree = "<group>"; };
+		46131137593FB72A4D49AEC6 /* Remontoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remontoire.swift; sourceTree = "<group>"; };
+		5096E4BE1F6F0EDEE1B5C9AA /* Escapement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escapement.swift; sourceTree = "<group>"; };
+		5A2DA801C79C3B55E6E40747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B646BF2BA66D65FBD54AC4F /* RemontoireControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemontoireControl.swift; sourceTree = "<group>"; };
+		604EC1BE0BF89E311AABCF53 /* RegulatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulatorScreen.swift; sourceTree = "<group>"; };
+		60A1CB162674FF8A8DE7B9FA /* Strike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strike.swift; sourceTree = "<group>"; };
+		6108BB48ADC47FB8ECE8A265 /* FilingFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilingFace.swift; sourceTree = "<group>"; };
+		62838E38DD7120F08BC6C571 /* PendulumFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumFace.swift; sourceTree = "<group>"; };
+		6DF6D6F442433126BC39B083 /* Waybill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waybill.swift; sourceTree = "<group>"; };
+		6FC37D1668EF05BAA7C0DAF1 /* RestanteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestanteTests.swift; sourceTree = "<group>"; };
+		7BE210BC4415138A28D5401F /* PostageInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostageInk.swift; sourceTree = "<group>"; };
+		7DB5F18CF12D0151FD1C4240 /* PostagePlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostagePlate.swift; sourceTree = "<group>"; };
+		82296F889BAE26834C2D9CC6 /* CancellationMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellationMarks.swift; sourceTree = "<group>"; };
+		861817B9EA881D9274E2E35D /* ReviewHook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHook.swift; sourceTree = "<group>"; };
+		90A871A8A4350CD7EAFA94E7 /* FilingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilingControl.swift; sourceTree = "<group>"; };
+		A8457E5F227AF28964F7D028 /* EscapementControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapementControl.swift; sourceTree = "<group>"; };
+		A9E1916B102345EA69A4FCE9 /* RestanteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestanteApp.swift; sourceTree = "<group>"; };
+		AC4256A997D04FD37912DF32 /* Regulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regulator.swift; sourceTree = "<group>"; };
+		B1063D98123B9EA53949DD0F /* ReviewHookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewHookTests.swift; sourceTree = "<group>"; };
+		B6B6456EFB2018C620E9DED7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA4FE7B6B94BA4C224C7A2A7 /* FilingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilingTests.swift; sourceTree = "<group>"; };
+		BAFB7DCDCFFF82183B92E9ED /* ReleasingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleasingControl.swift; sourceTree = "<group>"; };
+		C053E558BB8EAA48D020E667 /* Mainspring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mainspring.swift; sourceTree = "<group>"; };
+		C6AD19E0E55366A7C169F06F /* ScreenCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCatalog.swift; sourceTree = "<group>"; };
+		D67A4651E04E7E007451CC5E /* EscapementFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapementFace.swift; sourceTree = "<group>"; };
+		D81969E0D8851F3C51AF4E98 /* PostageKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostageKey.swift; sourceTree = "<group>"; };
+		D8B9553F7541CA29D390AF01 /* ScreenShotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotTests.swift; sourceTree = "<group>"; };
+		DB82668A21C1D1D6D87F26AF /* RestanteShotTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RestanteShotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6D92A26C3F88C8B6986A78 /* EscapementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapementTests.swift; sourceTree = "<group>"; };
+		E78AB144227994179F62204C /* PendulumControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumControl.swift; sourceTree = "<group>"; };
+		E7F8A3C9BB96BA6C26A57A50 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		E9CA5C5CE052CED3FD6BF1E9 /* Restante.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Restante.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DFA16110D852EF756A4777 /* RestanteTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RestanteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECED2E1DBE9D7FDF19ECBCC /* Fusee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fusee.swift; sourceTree = "<group>"; };
+		F5F521D68A2E8BCF090A0F94 /* CalendarFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFixture.swift; sourceTree = "<group>"; };
+		FC5C83833086EC2EC404C36D /* FuseeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuseeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961F6E51C1D7F87A565918C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C410A452CE57010017E17BC6 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F5A97D09825A434648988E /* Reviewing */ = {
+			isa = PBXGroup;
+			children = (
+				3D250172D4AA70446EC15F66 /* Dispatch.swift */,
+				30E6E298F055D8F63BD55B0A /* DispatchControl.swift */,
+				29B04AC66714C8168A7E371B /* DispatchScreen.swift */,
+			);
+			path = Reviewing;
+			sourceTree = "<group>";
+		};
+		1673BE3F7708EF1756E5E132 /* Releasing */ = {
+			isa = PBXGroup;
+			children = (
+				BAFB7DCDCFFF82183B92E9ED /* ReleasingControl.swift */,
+				60A1CB162674FF8A8DE7B9FA /* Strike.swift */,
+			);
+			path = Releasing;
+			sourceTree = "<group>";
+		};
+		20BDEF4E9DF32FF8ACD82A9B /* Filing */ = {
+			isa = PBXGroup;
+			children = (
+				90A871A8A4350CD7EAFA94E7 /* FilingControl.swift */,
+				6108BB48ADC47FB8ECE8A265 /* FilingFace.swift */,
+				C053E558BB8EAA48D020E667 /* Mainspring.swift */,
+			);
+			path = Filing;
+			sourceTree = "<group>";
+		};
+		40378376883ABDEA4A013D1F /* RestanteShotTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD19E0E55366A7C169F06F /* ScreenCatalog.swift */,
+				D8B9553F7541CA29D390AF01 /* ScreenShotTests.swift */,
+			);
+			path = RestanteShotTests;
+			sourceTree = "<group>";
+		};
+		50F7AE6417829EE1834F792F /* Sacrificing */ = {
+			isa = PBXGroup;
+			children = (
+				46131137593FB72A4D49AEC6 /* Remontoire.swift */,
+				5B646BF2BA66D65FBD54AC4F /* RemontoireControl.swift */,
+				00171CCD385143A1B2BB76EC /* RemontoireFace.swift */,
+			);
+			path = Sacrificing;
+			sourceTree = "<group>";
+		};
+		5BABE6AB99B2E1DF776FF26B /* Restante */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C99DE9335707C8B41D887 /* APIConfig.swift */,
+				5A2DA801C79C3B55E6E40747 /* AppDelegate.swift */,
+				0C749063E361856220194DBA /* Assets.xcassets */,
+				B6B6456EFB2018C620E9DED7 /* ContentView.swift */,
+				A9E1916B102345EA69A4FCE9 /* RestanteApp.swift */,
+				F530CD95A8EA704BD03D30A3 /* Clockwork */,
+				EF4F9DE02AF2EC0BFBE9186A /* Cooling */,
+				20BDEF4E9DF32FF8ACD82A9B /* Filing */,
+				7AA7D489707349AF6C3D65C8 /* Gating */,
+				1673BE3F7708EF1756E5E132 /* Releasing */,
+				12F5A97D09825A434648988E /* Reviewing */,
+				50F7AE6417829EE1834F792F /* Sacrificing */,
+			);
+			path = Restante;
+			sourceTree = "<group>";
+		};
+		5E277D207E8419E210E84138 /* RestanteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F521D68A2E8BCF090A0F94 /* CalendarFixture.swift */,
+				DD6D92A26C3F88C8B6986A78 /* EscapementTests.swift */,
+				BA4FE7B6B94BA4C224C7A2A7 /* FilingTests.swift */,
+				2320EDC26D24D5DCB684A075 /* FrankingClientTests.swift */,
+				FC5C83833086EC2EC404C36D /* FuseeTests.swift */,
+				0010833F316223DBBA819BEC /* GoingTrainTests.swift */,
+				097E08B2B3CC307DAB2A8125 /* PendulumControlTests.swift */,
+				1F933023CA10B526107C94A0 /* RemontoireTests.swift */,
+				6FC37D1668EF05BAA7C0DAF1 /* RestanteTests.swift */,
+				B1063D98123B9EA53949DD0F /* ReviewHookTests.swift */,
+			);
+			path = RestanteTests;
+			sourceTree = "<group>";
+		};
+		7AA7D489707349AF6C3D65C8 /* Gating */ = {
+			isa = PBXGroup;
+			children = (
+				5096E4BE1F6F0EDEE1B5C9AA /* Escapement.swift */,
+				A8457E5F227AF28964F7D028 /* EscapementControl.swift */,
+				D67A4651E04E7E007451CC5E /* EscapementFace.swift */,
+			);
+			path = Gating;
+			sourceTree = "<group>";
+		};
+		A1EDDDAD30F02A26E17B6188 = {
+			isa = PBXGroup;
+			children = (
+				5BABE6AB99B2E1DF776FF26B /* Restante */,
+				40378376883ABDEA4A013D1F /* RestanteShotTests */,
+				5E277D207E8419E210E84138 /* RestanteTests */,
+				E9EFD2F5C8947479699DFCF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9EFD2F5C8947479699DFCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9CA5C5CE052CED3FD6BF1E9 /* Restante.app */,
+				DB82668A21C1D1D6D87F26AF /* RestanteShotTests.xctest */,
+				E9DFA16110D852EF756A4777 /* RestanteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4F9DE02AF2EC0BFBE9186A /* Cooling */ = {
+			isa = PBXGroup;
+			children = (
+				82296F889BAE26834C2D9CC6 /* CancellationMarks.swift */,
+				EECED2E1DBE9D7FDF19ECBCC /* Fusee.swift */,
+				62838E38DD7120F08BC6C571 /* PendulumFace.swift */,
+			);
+			path = Cooling;
+			sourceTree = "<group>";
+		};
+		F530CD95A8EA704BD03D30A3 /* Clockwork */ = {
+			isa = PBXGroup;
+			children = (
+				433270E79A42F0B391BFB88B /* CarriageError.swift */,
+				2DF30ECD1E361843C38C2610 /* FrankingClient.swift */,
+				185BDD28CD962A1F91AA219F /* GoingTrain.swift */,
+				00D9F05B6CB501C4B810A80E /* Horology.swift */,
+				3AA3928B832941B3032CDA82 /* OnboardingFace.swift */,
+				E78AB144227994179F62204C /* PendulumControl.swift */,
+				7BE210BC4415138A28D5401F /* PostageInk.swift */,
+				D81969E0D8851F3C51AF4E98 /* PostageKey.swift */,
+				7DB5F18CF12D0151FD1C4240 /* PostagePlate.swift */,
+				AC4256A997D04FD37912DF32 /* Regulator.swift */,
+				047CACA26B7D647B56FB9403 /* RegulatorControl.swift */,
+				604EC1BE0BF89E311AABCF53 /* RegulatorScreen.swift */,
+				861817B9EA881D9274E2E35D /* ReviewHook.swift */,
+				E7F8A3C9BB96BA6C26A57A50 /* SettingsScreen.swift */,
+				6DF6D6F442433126BC39B083 /* Waybill.swift */,
+			);
+			path = Clockwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26EC252A31FF3242F423C721 /* RestanteShotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69530C5E5CFEF4593E0CCCB4 /* Build configuration list for PBXNativeTarget "RestanteShotTests" */;
+			buildPhases = (
+				744E8CA1C65C5F71A5BC8E9A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E70A903663D5B99003F9EF6 /* PBXTargetDependency */,
+			);
+			name = RestanteShotTests;
+			packageProductDependencies = (
+			);
+			productName = RestanteShotTests;
+			productReference = DB82668A21C1D1D6D87F26AF /* RestanteShotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45146D28C462D6CEEBC63461 /* RestanteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FB785ED328A666FA285B9B /* Build configuration list for PBXNativeTarget "RestanteTests" */;
+			buildPhases = (
+				6AE0189D73DA3FAC824964D5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3535600D60F39859B68AF994 /* PBXTargetDependency */,
+			);
+			name = RestanteTests;
+			packageProductDependencies = (
+			);
+			productName = RestanteTests;
+			productReference = E9DFA16110D852EF756A4777 /* RestanteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A56FE8140857DCCAE38613C7 /* Restante */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBE97855B7B44322AA52D35 /* Build configuration list for PBXNativeTarget "Restante" */;
+			buildPhases = (
+				FBCF7B1D45B45CE861D61E86 /* Sources */,
+				DE7682765C8B2D446E195F36 /* Resources */,
+				961F6E51C1D7F87A565918C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Restante;
+			packageProductDependencies = (
+				0EFA94035B66EF5AD4A1DDA1 /* Alamofire */,
+			);
+			productName = Restante;
+			productReference = E9CA5C5CE052CED3FD6BF1E9 /* Restante.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A373658746A36BE054181D9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26EC252A31FF3242F423C721 = {
+						ProvisioningStyle = Automatic;
+					};
+					45146D28C462D6CEEBC63461 = {
+						ProvisioningStyle = Automatic;
+					};
+					A56FE8140857DCCAE38613C7 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 56DB0952BF89DAFD5BA6FEF9 /* Build configuration list for PBXProject "Restante" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A1EDDDAD30F02A26E17B6188;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				69F5B96A5C1305265114DA72 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E9EFD2F5C8947479699DFCF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56FE8140857DCCAE38613C7 /* Restante */,
+				45146D28C462D6CEEBC63461 /* RestanteTests */,
+				26EC252A31FF3242F423C721 /* RestanteShotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE7682765C8B2D446E195F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8B3668449AB6C44FCEEC6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AE0189D73DA3FAC824964D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A72B94611B6617CA07DBFA8 /* CalendarFixture.swift in Sources */,
+				A88E7A589412CA7152089F92 /* EscapementTests.swift in Sources */,
+				383C280D5543DB12921B1C3D /* FilingTests.swift in Sources */,
+				4AF6E3C3E827CB9289CAE255 /* FrankingClientTests.swift in Sources */,
+				707BE46317F2DDFF9482E829 /* FuseeTests.swift in Sources */,
+				6E2C2CEAE4D2994CCEC62D9E /* GoingTrainTests.swift in Sources */,
+				115F388ED159D026AD181411 /* PendulumControlTests.swift in Sources */,
+				ADF718F832BCDB5998EE38B2 /* RemontoireTests.swift in Sources */,
+				0555C2EEA9151557867D1594 /* RestanteTests.swift in Sources */,
+				C1CDD42BD2977B251887B267 /* ReviewHookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744E8CA1C65C5F71A5BC8E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D7CAB7FF662CAFC5FE972B /* ScreenCatalog.swift in Sources */,
+				2C47003958850C1680BF6390 /* ScreenShotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCF7B1D45B45CE861D61E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2C3E66EBAF0C700CD8FF59 /* APIConfig.swift in Sources */,
+				FFAAF3A69079AC086FE8F523 /* AppDelegate.swift in Sources */,
+				7949D0BEAB7162D8868402A5 /* CancellationMarks.swift in Sources */,
+				AD2EA340FC5F09B02F059BFB /* CarriageError.swift in Sources */,
+				83DB4C713A030E40C34ECF2F /* ContentView.swift in Sources */,
+				EC403592EFB1DACA95C46BD3 /* Dispatch.swift in Sources */,
+				5B302A5E5A58AF60A566267F /* DispatchControl.swift in Sources */,
+				C0591B37BAF080ECC25034E2 /* DispatchScreen.swift in Sources */,
+				5ECB44C26C9E5E4E771F216C /* Escapement.swift in Sources */,
+				B4DFAEC48F05A84E88BC8EAC /* EscapementControl.swift in Sources */,
+				E61BB7370A5D6C9F0BD1AB82 /* EscapementFace.swift in Sources */,
+				BB201E4185D5E00240DFBB08 /* FilingControl.swift in Sources */,
+				7ED4B729593D990F09E6845E /* FilingFace.swift in Sources */,
+				F05B83DDFEC5A801B83270FC /* FrankingClient.swift in Sources */,
+				0399F53AEBE41069C449D5C0 /* Fusee.swift in Sources */,
+				C5535AB7F8BCB05FF2EE6F02 /* GoingTrain.swift in Sources */,
+				07D6F2A735B709A402F93C5D /* Horology.swift in Sources */,
+				3CA5B3DD8CE234B8129DE3BE /* Mainspring.swift in Sources */,
+				5324204C6CBADD845F74B98D /* OnboardingFace.swift in Sources */,
+				F9B6A9ECE63F30A430B4269D /* PendulumControl.swift in Sources */,
+				40805C4C04C5056E5D62B434 /* PendulumFace.swift in Sources */,
+				5E9C5F6DDB70305C1D5CAEE1 /* PostageInk.swift in Sources */,
+				AE742213AB62656BEEFF4BED /* PostageKey.swift in Sources */,
+				9C4D1BF5268B582982A57B05 /* PostagePlate.swift in Sources */,
+				A319445553C1B549CD999D00 /* Regulator.swift in Sources */,
+				9374A3E1C66D688239F891FD /* RegulatorControl.swift in Sources */,
+				D33F380F413B104E754310FA /* RegulatorScreen.swift in Sources */,
+				9E96B7B70BF324C47D74986D /* ReleasingControl.swift in Sources */,
+				3061D0F06B525C856EDCB91A /* Remontoire.swift in Sources */,
+				B0ADD69BE410339AC1BF1F7B /* RemontoireControl.swift in Sources */,
+				914E4541419547FB0E8B1AC0 /* RemontoireFace.swift in Sources */,
+				E024F6F3EDB9A8E3D536DA5B /* RestanteApp.swift in Sources */,
+				AC516342FBDB204D6B4E4BCE /* ReviewHook.swift in Sources */,
+				1542519A0A4799F8E76A705B /* SettingsScreen.swift in Sources */,
+				F2FB8D724D5C178846A7A42D /* Strike.swift in Sources */,
+				A3075FDA7EC69D603705C152 /* Waybill.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3535600D60F39859B68AF994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56FE8140857DCCAE38613C7 /* Restante */;
+			targetProxy = 042902BC8282AC8BC316DC9D /* PBXContainerItemProxy */;
+		};
+		6E70A903663D5B99003F9EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56FE8140857DCCAE38613C7 /* Restante */;
+			targetProxy = 660F3C7E053842FFC66492CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33C13DA231B1ABF011F152B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		5B93645F41C8B164EDD0E37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restante.hold.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Restante.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Restante";
+			};
+			name = Release;
+		};
+		70884B674E755ABCEC5654AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Restante;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = rst_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.restante.hold;
+				PRODUCT_NAME = Restante;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83D6763980E7BC58643777EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		AA49BFBD43B3207E97D0ABDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Restante;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = rst_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.restante.hold;
+				PRODUCT_NAME = Restante;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1F84935736B5DBCDE324D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restante.hold.tests.shots;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Restante.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Restante";
+			};
+			name = Debug;
+		};
+		C4CDCE3476C05BC503D329FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restante.hold.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Restante.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Restante";
+			};
+			name = Debug;
+		};
+		D0B888EEDBEFD7786700067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.restante.hold.tests.shots;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Restante.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Restante";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DB0952BF89DAFD5BA6FEF9 /* Build configuration list for PBXProject "Restante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D6763980E7BC58643777EB /* Debug */,
+				33C13DA231B1ABF011F152B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69530C5E5CFEF4593E0CCCB4 /* Build configuration list for PBXNativeTarget "RestanteShotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F84935736B5DBCDE324D86 /* Debug */,
+				D0B888EEDBEFD7786700067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93FB785ED328A666FA285B9B /* Build configuration list for PBXNativeTarget "RestanteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CDCE3476C05BC503D329FE /* Debug */,
+				5B93645F41C8B164EDD0E37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DCBE97855B7B44322AA52D35 /* Build configuration list for PBXNativeTarget "Restante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA49BFBD43B3207E97D0ABDD /* Debug */,
+				70884B674E755ABCEC5654AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		69F5B96A5C1305265114DA72 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EFA94035B66EF5AD4A1DDA1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69F5B96A5C1305265114DA72 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A373658746A36BE054181D9C /* Project object */;
+}
