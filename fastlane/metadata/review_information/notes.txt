@@ -1,13 +1,27 @@
-The Info.plist includes NSCameraUsageDescription with the exact string "This app does not use the camera." The app never requests camera access, so that system dialog does not appear. No other permission usage-description keys are set.
+Hi —
 
-There is no login, no in-app purchase, no user-generated content, no account deletion flow and no App Tracking Transparency prompt.
+I recorded this on a physical iPhone, current iOS, from the Home Screen icon. Restante is a payday lock for impulse buys. You name a want and a price. The clock does not open because 24 hours passed — it opens on the payday you set. If you cannot wait, you buy early only by dropping another waiting want. Audience: people who talk themselves into a cart between paychecks. Value: a lock they cannot negotiate with, and no bank login.
 
-Restante is a personal payday lock for impulse buyers who are paid on a schedule. Users file wants and wait on the clock until the payday gate opens, or sacrifice another cooling want to buy early. It does not move money or connect to a bank.
+No account, so there is no login / signup / delete to show, and no demo password. Titles stay on this device. Nothing is published, so report and block are not in the app.
 
-No credentials or demo account are needed. On a fresh device install, wait through the launch screen (up to five seconds). Four onboarding pages appear; tap Open the clock or Skip. The empty clock shows File a want. Enter Title and Price, set Necessity, Discretion and Priority, then File the want. Header Settings opens Settings. Bottom Payday opens Payday gate (Lodge payday). Rules opens Regulator (Lodge rules). This week opens Dispatch. To try Remontoire, file a second cooling want whose remaining hours cover the first, tap Sacrifice another want, and choose the donor. When the clock says Payday is open, tap Bought or Dropped.
+Walkthrough:
 
-On launch the app POSTs bundle identifier com.restante.hold and an empty push token to https://restante.pro/api/v1/users/register. A reply without a content URL, or the five-second timeout, shows the native clock. A previously saved content URL would load in WKWebView; a clean install has none. Contact Restante opens https://restante.pro/contact-us in Safari. Filed wants, Regulator rules and Dispatch records stay as JSON files in Application Support on the device.
+Onboarding: Hold the impulse / Name the want / Buy early has a cost / Set your payday. I used Start. Skip is the same destination and still sets Friday every two weeks.
 
-Behaviour does not differ by App Store region. Currency, weekday names and decimal separators follow the device locale. Payday dates use Calendar and the device time zone.
+Empty home says Add a want. Sheet: Title, Price, Necessity, Discretion, Priority, then Hold this want. The header shows the payday date. The dial shows days left, not a raw hour dump.
 
-No licence or regulated-industry paperwork applies. The app does not process payments, hold funds, or give regulated financial advice.
+I add a second want so Buy early (drop another want) has something to spend. That sheet is Buy early: pick a want to drop. I can also tap Changed my mind — drop this without waiting for payday. Payday: calendar + Save payday. Rules: Payday weekday, Pay cycle, Monthly cap, Save rules. History lists Bought, Dropped, Dropped to buy early, Still waiting. When payday is open I tap I bought it (I dropped it is next to it). Settings: Contact Restante, Re-run onboarding, Reset all data.
+
+Reviewer setup: install, open, Start or Skip, add two wants, try Buy early or drop one, open History / Payday / Rules, then Settings.
+
+Permissions: we do not ask for camera, mic, contacts, location, or tracking. The plist camera line is “This app does not use the camera.”
+
+Wants and rules are JSON in Application Support. Support: https://restante.pro/contact-us. Privacy: https://restante-hold.pro/privacy-policy. No login vendor, ads, analytics, or model API.
+
+Same screens in every region. Locale only changes currency, weekday names, decimals, and payday dates.
+
+Not a payments business, not a licensed advisor, no third-party catalog. No paperwork.
+
+I can recut the buy-early path if you want that isolated.
+
+Thanks

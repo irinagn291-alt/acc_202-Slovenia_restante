@@ -1,7 +1,7 @@
 Version 1.0 is the first public release.
 
-On first launch, four pages cover Held until payday, File a want, Remontoire, not a skip, and Set the payday gate. Skip lodges Friday every two weeks.
+On first launch, four pages cover Hold the impulse, Name the want, Buy early has a cost, and Set your payday. Skip sets Friday every two weeks.
 
-The home wait clock shows remaining hours until payday. File a want with Title, Price, Necessity, Discretion and Priority. While cooling, use Sacrifice another want or wait. When payday is open, mark the want Bought or Dropped.
+The home clock shows days left until the payday date. Add a want with Title, Price, Necessity, Discretion and Priority. While waiting, add another want, drop this one, or buy early by dropping another want. When payday is open, mark I bought it or I dropped it.
 
-Payday, Rules and This week open Payday gate, Regulator and Dispatch. Settings holds Contact Restante, Re-run onboarding and Reset all data. Wants stay on this device.
+Payday, Rules and History open from the home bar. Settings holds Contact Restante, Re-run onboarding and Reset all data. Wants stay on this device.
